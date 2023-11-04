@@ -1,0 +1,27 @@
+{
+  "name": "reconocimientodedispositivos",
+  "version": "1.0.0",
+  "description": "Puesta en práctica de Librería para reconocer los dispositivos del Usuario en NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafalejandrorh/NodeJsReconocimientoDeDispositivos.git"
+  },
+  "author": "Rafael Rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalejandrorh/NodeJsReconocimientoDeDispositivos/issues"
+  },
+  "homepage": "https://github.com/rafalejandrorh/NodeJsReconocimientoDeDispositivos#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-device": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
